@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page con Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .hero {
+      background-color: #0d1b4c;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .features i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">BrandName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Tienda de utencilios de cocina</h1>
+      <p class="lead">Nuestra tienda tiene diversos utencilios para tu hogar.</p>
+      <a class="btn btn-primary btn-lg" href="#">COMPRA AQUI</a>
+    </div>
+  </section>
+
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img src="https://st3.depositphotos.com/1177973/18695/i/450/depositphotos_186953508-stock-photo-metal-cooking-utensils-on-table.jpg" class="d-block mx-auto" alt="Slide 1">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="https://via.placeholder.com/700x300" class="d-block mx-auto" alt="Slide 2">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="https://via.placeholder.com/700x300" class="d-block mx-auto" alt="Slide 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Features Section -->
+  <section class="py-5 text-center features">
+    <div class="container">
+      <h2 class="mb-4">Utencilios para cocina</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="bi bi-layers"></i>
+          <h5>Refrigeradora</h5>
+          <p> Aparato eléctrico que mantiene fríos los alimentos, evitando que se estropeen.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-code-slash"></i>
+          <h5>Estufas</h5>
+          <p>son aparatos que funcionan a través de energía eléctrica o gas que tienen como objetivo producir calor para calentar el ambiente que desees en tu hogar.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-box"></i>
+          <h5>Licuadoras</h5>
+          <p>es un electrodoméstico esencial en la cocina, ideal para preparar una variedad de alimentos y bebidas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-light py-5 text-center">
+    <div class="container">
+      <h3 class="mb-4">Todo lo escuentras aqui</h3>
+      <blockquote class="blockquote">
+        <p>“Nuestra tienda es el lugar donde puedes encontrar variedades de utencilios para la comodidad de tu hogar especialmente en tu cocina.”</p>
+        <footer class="blockquote-footer mt-2">Soany y Paola</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h4 class="mb-4">Estas listo para hacer tu compra?</h4>
+      <form class="row g-2 justify-content-center">
+        <div class="col-auto">
+          <input type="email" class="form-control" placeholder="Email Address">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container d-flex justify-content-between align-items-center">
+      <span>© 2025 Cocina</span>
+      <div>
+        <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Iconos de Bootstrap (Bootstrap Icons) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+  
+
+
+
+
+</html>
